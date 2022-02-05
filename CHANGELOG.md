@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to `lara-commands` will be documented in this file.
+All notable changes to `Laracommand` will be documented in this file.
 
 ## v1.0.0 - 2022-02-05
 

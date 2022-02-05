@@ -1,12 +1,12 @@
 {
-    "name": "coderflex/lara-commands",
+    "name": "coderflex/laracommand",
     "description": "Tool to save you time, and scaffold all of your files in one command.",
     "keywords": [
         "coderflex",
         "laravel",
-        "lara-commands"
+        "Laracommand"
     ],
-    "homepage": "https://github.com/coderflexx/lara-commands",
+    "homepage": "https://github.com/coderflexx/Laracommand",
     "license": "MIT",
     "authors": [
         {

@@ -18,7 +18,7 @@ class LaraCommandsServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('lara-commands')
+            ->name('Laracommand')
             ->hasCommands([
                 ModelMakeCommand::class,
             ]);
