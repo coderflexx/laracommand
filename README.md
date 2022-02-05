@@ -1,7 +1,7 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/coderflexx/laracommand/docs/images/ logo.png" alt="laracommand Logo" width="300">
+    <img src="https://raw.githubusercontent.com/coderflexx/laracommand/main/docs/images/logo.png" alt="laracommand Logo" width="300">
     <br><br>
-    <img src="https://raw.githubusercontent.com/nunomaduro/laracommand/docs/images/example.png" alt="laracommand Example" height="300">
+    <img src="https://raw.githubusercontent.com/coderflexx/laracommand/main/docs/images/example.png" alt="laracommand Example" height="300">
 </p>
 
 
