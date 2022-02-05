@@ -2,11 +2,11 @@
 
 namespace Coderflex\LaraCommand;
 
-use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
 use Coderflex\LaraCommand\Console\{
     ModelMakeCommand
 };
+use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class LaraCommandsServiceProvider extends PackageServiceProvider
 {

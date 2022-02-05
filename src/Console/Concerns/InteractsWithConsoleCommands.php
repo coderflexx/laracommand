@@ -9,7 +9,6 @@ use Symfony\Component\Console\Input\InputArgument;
  */
 trait InteractsWithConsoleCommands
 {
-
     /**
      * Loop through the name arguments and, create each record individualy
      * @param string $command
@@ -26,12 +25,11 @@ trait InteractsWithConsoleCommands
             );
 
             if (
-                count( array_filter($this->getListOfOptions()) )
+                count(array_filter($this->getListOfOptions()))
             ) {
                 $this->line("<options=bold,reverse;fg=green> {$name} assets created successfully.</>\n");
                 $this->line("----------------------------------------------------------------\n");
             }
-
         });
 
         $this->line("<options=bold,reverse;fg=green> DONE </> 🤙\n");
