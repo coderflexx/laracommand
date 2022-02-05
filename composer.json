@@ -53,7 +53,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Coderflex\\LaraCommand\\LaraCommandsServiceProvider"
+                "Coderflex\\LaraCommand\\LaraCommandServiceProvider"
             ],
             "aliases": {
                 "LaraCommand": "Coderflex\\LaraCommand\\Facades\\LaraCommand"

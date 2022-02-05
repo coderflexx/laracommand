@@ -2,7 +2,7 @@
 
 namespace Coderflex\LaraCommand\Tests;
 
-use Coderflex\LaraCommand\LaraCommandsServiceProvider;
+use Coderflex\LaraCommand\LaraCommandServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 
@@ -20,7 +20,7 @@ class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
-            LaraCommandsServiceProvider::class,
+            LaraCommandServiceProvider::class,
         ];
     }
 

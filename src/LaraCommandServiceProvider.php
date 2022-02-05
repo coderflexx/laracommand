@@ -8,7 +8,7 @@ use Coderflex\LaraCommand\Console\{
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class LaraCommandsServiceProvider extends PackageServiceProvider
+class LaraCommandServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
