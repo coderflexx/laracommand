@@ -1,0 +1,65 @@
+{
+    "name": "coderflex/lara-commands",
+    "description": "Tool to save you time, and scaffold all of your files in one command.",
+    "keywords": [
+        "coderflex",
+        "laravel",
+        "lara-commands"
+    ],
+    "homepage": "https://github.com/coderflexx/lara-commands",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "oussama",
+            "email": "oussama@coderflex.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "spatie/laravel-package-tools": "^1.9.2",
+        "illuminate/contracts": "^8.73"
+    },
+    "require-dev": {
+        "nunomaduro/collision": "^5.10",
+        "nunomaduro/larastan": "^1.0",
+        "orchestra/testbench": "^6.22",
+        "pestphp/pest": "^1.21",
+        "pestphp/pest-plugin-laravel": "^1.1",
+        "phpstan/extension-installer": "^1.1",
+        "phpstan/phpstan-deprecation-rules": "^1.0",
+        "phpstan/phpstan-phpunit": "^1.0",
+        "phpunit/phpunit": "^9.5",
+        "spatie/laravel-ray": "^1.26"
+    },
+    "autoload": {
+        "psr-4": {
+            "Coderflex\\LaraCommand\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Coderflex\\LaraCommand\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "analyse": "vendor/bin/phpstan analyse",
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Coderflex\\LaraCommand\\LaraCommandsServiceProvider"
+            ],
+            "aliases": {
+                "LaraCommand": "Coderflex\\LaraCommand\\Facades\\LaraCommand"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
