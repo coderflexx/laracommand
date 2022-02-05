@@ -1,7 +1,7 @@
 <p align="center">
     <img src="https://raw.githubusercontent.com/coderflexx/laracommand/main/docs/images/logo.png" alt="laracommand Logo" width="300">
     <br><br>
-    <img src="https://raw.githubusercontent.com/coderflexx/laracommand/main/docs/images/example.png" alt="laracommand Example" height="300">
+    <img src="https://raw.githubusercontent.com/coderflexx/laracommand/main/docs/images/example.png" alt="laracommand Example" height="500">
 </p>
 
 
@@ -17,7 +17,7 @@ A Cli tool to save you time, and gives you the power to scaffold all of your mod
 You can install the package via composer:
 
 ```bash
-composer require coderflex/lara-commands --dev
+composer require coderflex/lara-command --dev
 ```
 
 
