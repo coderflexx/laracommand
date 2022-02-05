@@ -17,7 +17,7 @@ A Cli tool to save you time, and gives you the power to scaffold all of your mod
 You can install the package via composer:
 
 ```bash
-composer require coderflex/lara-command --dev
+composer require coderflexx/laracommand --dev
 ```
 
 
