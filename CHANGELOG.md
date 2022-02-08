@@ -2,6 +2,14 @@
 
 All notable changes to `Laracommand` will be documented in this file.
 
+## Update README.md - 2022-02-08
+
+## Updates:
+
+- Fix a misleading link
+
+**Full Changelog**: https://github.com/coderflexx/laracommand/compare/v1.1.0...v1.1.1
+
 ## v1.1.0 - 2022-02-05
 
 - Rename the service provider class from `LaraCommandsServiceProvider.php` to `LaraCommandServiceProvider.php`
