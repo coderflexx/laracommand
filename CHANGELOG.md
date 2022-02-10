@@ -2,6 +2,12 @@
 
 All notable changes to `Laracommand` will be documented in this file.
 
+## v2.0.0 - 2022-02-10
+
+## Add
+
+Laravel 9 Support
+
 ## v1.2.0 - 2022-02-10
 
 ## Add
