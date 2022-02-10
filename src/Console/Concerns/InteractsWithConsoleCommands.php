@@ -2,8 +2,6 @@
 
 namespace Coderflex\LaraCommand\Console\Concerns;
 
-use Symfony\Component\Console\Input\InputArgument;
-
 /**
  * Interact With Console Commands
  */
