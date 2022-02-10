@@ -2,6 +2,16 @@
 
 All notable changes to `Laracommand` will be documented in this file.
 
+## v1.2.0 - 2022-02-10
+
+## Add
+
+- Tests to `ModelMakeCommandTest`
+
+## Update
+
+- `ModelMakeCommand` logic
+
 ## Update README.md - 2022-02-08
 
 ## Updates:
