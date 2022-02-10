@@ -2,6 +2,14 @@
 
 All notable changes to `Laracommand` will be documented in this file.
 
+## v2.0.1 - 2022-02-10
+
+## What's Changed
+
+- V2 by @ousid in https://github.com/coderflexx/laracommand/pull/2
+
+**Full Changelog**: https://github.com/coderflexx/laracommand/compare/v1.2.0...v2.0.1
+
 ## v2.0.0 - 2022-02-10
 
 ## Add
