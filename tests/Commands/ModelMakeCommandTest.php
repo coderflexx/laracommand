@@ -1,5 +1,19 @@
 <?php
 
+it('creates a new eloquent single model class', function () {
+    $this->artisan('laracommand:make-model', [
+                'name' => 'Category',
+            ])
+            ->assertExitCode(0);
+});
+
+it('returns required error if the name was not provided', function () {
+    $this->artisan('laracommand:make-model', [
+                'name' => null,
+            ])
+            ->assertExitCode(0);
+});
+
 it('creates a new eloquent model class', function () {
     $this->artisan('laracommand:make-model', [
                 'name' => 'Category Product',

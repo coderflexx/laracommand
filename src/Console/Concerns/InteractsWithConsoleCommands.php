@@ -16,7 +16,12 @@ trait InteractsWithConsoleCommands
      */
     public function loopThroughNameArgumentWith(string $command): bool
     {
-        collect($this->argument('name'))->each(function ($name, $key) use ($command) {
+        /**
+         * @var array $models
+         */
+        $models = explode(' ', strval($this->argument('name')));
+        
+        collect($models)->each(function ($name) use ($command) {
             $this->line("Generating {$name} class\n");
 
             $this->call(
@@ -35,18 +40,6 @@ trait InteractsWithConsoleCommands
         $this->line("<options=bold,reverse;fg=green> DONE </> 🤙\n");
 
         return true;
-    }
-
-    /**
-     * Get the console command arguments.
-     *
-     * @return array
-     */
-    protected function getArguments(): array
-    {
-        return [
-            ['name', InputArgument::IS_ARRAY, 'The name of the class'],
-        ];
     }
 
     /**
