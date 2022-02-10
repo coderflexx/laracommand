@@ -2,8 +2,6 @@
 
 namespace Coderflex\LaraCommand\Console\Concerns;
 
-use Symfony\Component\Console\Input\InputArgument;
-
 /**
  * Interact With Console Commands
  */
@@ -20,7 +18,7 @@ trait InteractsWithConsoleCommands
          * @var array $models
          */
         $models = explode(' ', strval($this->argument('name')));
-        
+
         collect($models)->each(function ($name) use ($command) {
             $this->line("Generating {$name} class\n");
 
