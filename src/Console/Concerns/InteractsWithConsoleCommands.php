@@ -18,7 +18,6 @@ trait InteractsWithConsoleCommands
          * @var array $models
          */
         $models = explode(' ', strval($this->argument('name')));
-
         collect($models)->each(function ($name) use ($command) {
             $this->line("Generating {$name} class\n");
 
