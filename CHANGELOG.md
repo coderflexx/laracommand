@@ -2,6 +2,12 @@
 
 All notable changes to `Laracommand` will be documented in this file.
 
+## v2.0.2 - 2022-02-12
+
+## Update
+
+- update `README.md`
+
 ## v2.0.1 - 2022-02-10
 
 ## What's Changed
